@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./feed.css";
 import { Box, Stack, Typography } from "@mui/material";
 import SideBar from "../Sidebar";
-import Videos from "./Videos";
-import { api, fetchFromAPI } from "../utils/api";
+import Videos from "./Video/Videos";
+import { api } from "../utils/api";
 
 const Feed = () => {
   const [selectedCategory, setselectedCategory] = useState("Latest");

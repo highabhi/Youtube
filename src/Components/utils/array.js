@@ -7,6 +7,7 @@ import HomeIcon from '@mui/icons-material/Home';
 
 
 export const categories = [
+  { name: 'HighAbhi', icon: <HomeIcon />, },
   { name: 'Latest', icon: <HomeIcon />, },
   { name: "Coding", icon: <CodeIcon /> },
   { name: "Podcast", icon: <GraphicEqIcon /> },

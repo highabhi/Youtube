@@ -1,8 +1,8 @@
 import React from 'react'
 import './Navbar.css'
-import { Stack } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import SearchBar from './SearchBar';
-
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -11,7 +11,9 @@ const Navbar = () => {
             alignItems="center"
             className="Nav-container"
         >
-            <h1>HIGHABHI</h1>
+            <Link to='/'>
+                <Typography h2>HighAbhi</Typography>
+            </Link>
             <SearchBar />
         </Stack>
     )
