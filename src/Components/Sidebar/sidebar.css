@@ -1,0 +1,30 @@
+.buttons {
+    font-variant: small-caps;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    gap: 10px;
+    padding: 7px 15px;
+    background: transparent;
+    margin: 6px 0px ;
+    border-radius: 21px;
+    border: none;
+    outline: none;
+    transition: all 0.4s ease;
+}
+
+@media screen and (max-width:900px) {
+    .buttons{
+        margin: 10px;
+    }
+    
+}
+
+.buttons:hover {
+    background-color: green;
+}
+
+.button:hover span{
+    color: lavenderblush;
+}

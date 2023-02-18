@@ -1,0 +1,23 @@
+.Nav-container {
+  background-color: rgb(168, 177, 156);
+  height: 65px;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-variant: small-caps;
+}
+
+/* Searchbar styling */
+
+.searchbar {
+  border: none;
+  outline: none;
+  width: 350px;
+}
+
+
+@media screen and (max-width:700px) {
+  .searchbar {
+    width: 60%;
+  }  
+}
